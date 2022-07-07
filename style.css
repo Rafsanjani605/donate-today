@@ -1,0 +1,370 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+background-color: rgba(241, 243, 246, 0.297);
+  }
+
+  p{
+    
+  }
+
+  h3{
+    font-size: 40px;
+  }
+
+  h4{
+    font-size: 30px;
+  }
+
+.head{
+    background-image: url(donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    margin-bottom: 30px;
+
+    
+    
+}
+
+.headh{
+    color:rgb(237, 229, 229);
+    text-align: center;
+    padding-top: 150px;
+    
+
+}
+
+.headh h1{
+    font-size: 80px;
+    
+    
+}
+
+h2{
+    color: crimson;
+    font-size: 80px;
+    margin-bottom: 30px;
+
+}
+
+.heahh p{
+    padding: 30px;
+    font-size: 0px;
+    
+}
+
+.btn{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.btn a{
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.btn a:hover{
+    background-color: blueviolet;
+    font-size: larger;
+}
+
+/*main part start */
+
+.main{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+
+   
+}
+.main h3{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.main p{
+    text-align: center;
+}
+
+.tk{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+    
+
+
+}
+
+.tk a{
+    margin: 30px 30px;
+    text-decoration: none;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.145);
+    color: rgba(59, 52, 52, 0.753);
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.tk a:hover{
+    border: 1px solid crimson;
+    background-color: rgba(220, 20, 60, 0.182);
+    border-radius: 10px;
+}
+
+
+/*for other amount */
+
+.other{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.other p{
+    color: rgba(120, 90, 90, 0.507);
+}
+
+
+/*donation plan */
+
+
+
+
+
+
+
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.plan h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.plan p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.donation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gre{
+    height: 352px;
+    width: 360px;
+    
+    margin: 10px;
+
+    background-color: #5ca3ab4d;
+    
+    float: left;
+}
+
+
+
+.depend{
+    margin: 15%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+   
+
+
+}
+
+.leftd{
+    width: 40%;
+    float: left;
+    margin-top: 80px;
+    padding-left: 50px;
+    
+
+}
+
+.leftd h2{
+    color: black;
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.leftd a{
+    margin-top: 20px; padding: 10px;
+     text-decoration: none;
+ }
+ 
+
+.rightd{
+    width: 40%;
+    float: left;
+    margin: 80px;
+    padding-left: 10px;
+}
+
+
+
+.rightd img{
+    width: 100%;
+}
+
+
+.need{
+    margin: 15%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+
+
+}
+.leftn{
+    width: 40%;
+    
+    margin: 50px;
+
+}
+
+.leftn img{
+    width: 100%;
+    float: left;
+}
+.rightn{
+width: 40%;
+float: left;
+padding-left: 100px;
+padding-top: 40px;
+
+
+}
+.rightn h3{
+    padding-bottom: 20px;
+    
+
+}
+
+.how{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.how a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: crimson;
+    border-radius: 15px;
+    color: white;
+}
+
+.update{
+    margin: 30%;
+    width: 40%;
+
+margin-top: 300px;
+margin-bottom: 50px;
+
+float: left;
+
+
+}
+
+.update h3{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.update p{
+    text-align: center;
+}
+
+.email{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    padding: 70px;
+    background-color: bisque;
+}
+
+
+.em input{
+    width: 400px;
+    height: 40px;
+    background-color: rgba(206, 181, 181, 0.676);
+   
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-buttm-left-radius: 10px;
+}
+.subscribe input{
+    width: 150px;
+    height: 40px;
+    background-color: crimson;
+    font-size: larger;
+    font-weight: bolder;
+    border: radius left 10px; 
+    border-bottom-right-radius: 10px;
+
+    
+
+}
+#frame{
+    
+}
+
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+
+
+.humble{
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.humble h{
+    color: crimson;
+    font-size: 30px;
+        
+
+}
+
+.footer p{
+    text-align: center;
+    color: antiquewhite;
+}
+
+ 
+
+
+
