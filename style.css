@@ -167,28 +167,87 @@ h2{
 }
 
 .donation{
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .gre{
-    height: 352px;
-    width: 360px;
+    
+    padding: 20px;
+    height: 342px;
+    width: 350px;
     
     margin: 10px;
 
-    background-color: #5ca3ab4d;
+    background-color: #4F9DA61A;
     
-    float: left;
+    
+
+}
+
+.rice{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.rice i{
+    color: white;
+    
+}
+
+.gre p{
+    padding-top: 15px;
+}
+
+.gre1{
+    padding: 20px;
+    height: 342px;
+    width: 350px;
+    
+
+
+    background-color: #FF59591A;
+    
+    
+
+
+}
+
+.family{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    
+
+
+}
+
+.family i{
+    color: rgb(108, 58, 58);
+}
+
+.gre1 p{
+    padding-top: 15px;
+}
+
+gre2{
+    height: 342px;
+    width: 350px;
+    
+    margin: 10px;
+
+    background-color: #11707b4d;
+    
 }
 
 
-
 .depend{
-    margin: 11%;
+  
     margin-top: 100px;
-    margin-bottom: 10px;
     padding-bottom: 100px;
     display: flex;
     align-items: center;
@@ -199,10 +258,10 @@ h2{
 }
 
 .leftd{
-    width: 40%;
+    width: 30%;
     float: left;
     margin-top: 80px;
-    padding-left: 50px;
+    padding-left: px;
     
 
 }
@@ -222,9 +281,9 @@ h2{
 
 .rightd{
     width: 40%;
-    float: left;
-    margin: 80px;
-    padding-left: 10px;
+    
+   padding-left: 80px;
+   
 }
 
 
@@ -237,17 +296,20 @@ h2{
 
 
 .need{
-    margin: 11%;
     
-    margin-bottom: 100px;
-    padding-bottom: 100px;
+    
+    margin: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
 .leftn{
     width: 40%;
     
-    margin: 50px;
+    
 
 }
 
@@ -258,7 +320,7 @@ h2{
 .rightn{
 width: 40%;
 float: left;
-padding-left: 100px;
+padding-left: 50px;
 padding-top: 40px;
 
 
@@ -282,13 +344,17 @@ padding-top: 40px;
 }
 
 .update{
-    margin: 30%;
-    width: 40%;
 
-margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+
+margin-top: 200px;
 margin-bottom: 50px;
 
-float: left;
+
 
 
 }
@@ -309,28 +375,33 @@ float: left;
     margin-left: 250px;
     padding: 70px;
     background-color: bisque;
+    
 }
 
 
 .em input{
+
     width: 400px;
     height: 40px;
     background-color: rgba(206, 181, 181, 0.676);
-   
     font-size: larger;
     font-weight: bolder;
-    padding-left: 5px;
-    border-top-left-radius: 10px;
-    border-buttm-left-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    
 }
-.subscribe input{
-    width: 150px;
-    height: 40px;
-    background-color: crimson;
-    font-size: larger;
-    font-weight: bolder;
-    border: radius left 10px; 
-    border-bottom-right-radius: 10px;
+.subscribe a{
+   text-decoration: none;
+   color: white;
+   padding: 12px;
+   border-radius: 10px;
+   
+   height: 40px;
+   width: 200px;
+   background-color: crimson;
+
+
 
     
 
